@@ -1,0 +1,121 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4f4657;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+.container {
+    max-width: 500px;
+    margin: 150px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #252525;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
+    transition-duration: .4s;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+#infos {
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+input {
+    background-color: #252525;
+    border: 1px solid #c50752;
+    width: 98%;
+    padding: 10px 0px 10px 7px;
+    margin-bottom: 10px;
+    margin-top: 6px;
+    border-radius: 7px;
+    transition-duration: .4s;
+    color: #c50752;
+}
+
+input:hover {
+    transition-duration: .4s;
+    box-shadow: 2px 2px 5px #c50752;
+    padding: 11px 0px 11px 7px;
+    margin-bottom: 9px;
+    margin-top: 5px;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+select {
+    background-color: #252525;
+    border: 1px solid #c50752;
+    width: 100%;
+    padding: 10px 0px 10px 7px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    color: #c50752;
+}
+
+select:hover {
+    transition-duration: .4s;
+    box-shadow: 2px 2px 5px #c50752;
+    padding: 11px 0px 11px 7px;
+    margin-bottom: 9px;
+    margin-top: 4px;
+}
+#res-btn{
+    color: #f2f2f2;
+    border-top: 2px solid #f2f2f2;
+    margin-top: 5px;
+    text-align: left;
+}
+#resultname{
+    font-size: 24px;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.result{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+#res-btn button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    border-top: 1px solid #fe61a0;
+    border-left: 1px solid #fe61a0;
+    border-bottom: 1px solid #44011c;
+    border-right: 1px solid #44011c;
+    cursor: pointer;
+    background-color: #c50752;
+    color: #f2f2f2;
+    font-size: 1rem;
+    transition-duration: .4s;
+    box-shadow: -2px -2px 4px #c5075395,-3px -3px 7px #c5075362, -6px -6px 15px #89053a42,
+    2px 2px 4px #100006,3px 3px 7px #44011c, 6px 6px 15px rgb(42, 0, 46);
+}
+#res-btn button:hover{
+    transition-duration: .4s;
+    padding: 11px 21px 11px 21px;
+    margin-top: 3px;
+    box-shadow: -3px -3px 5px #c5075395,-4px -4px 8px #c5075362, -7px -7px 16px #89053a42,
+    3px 3px 5px #100006,4px 4px 8px #44011c, 7px 7px 16px rgb(42, 0, 46);
+}

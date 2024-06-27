@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(251, 244, 235);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    padding: 50px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 3px 3px 5px rgb(44, 44, 44);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+}
+
+.h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.color-box {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 100px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow:3px 4px 5px gray;
+}
+.sliders{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+.slider{
+    display: flex;
+    margin-bottom: 10px;
+}
+input{
+    margin-left: 10px;
+    margin-right: 5px;
+    width: 200px;
+}
+span{
+    font-weight: bold;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.button-container button{
+    margin-left: 15px;
+    padding: 4%;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 2px 4px grey,3px 3px 6px burlywood inset;
+    background-color: rgb(250, 214, 168);
+    transition-duration: .4s;
+}
+.button-container button:hover{
+    transition-duration: .4s;
+    box-shadow: 4px 4px 7px grey,6px 6px 5px burlywood inset;
+    background-color: rgb(250, 214, 168);
+}
+
+.button-container div{
+    padding: 4%;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 3px 3px 7px grey,3px 3px 6px burlywood inset;
+    background-color: rgb(255, 224, 183);
+}
